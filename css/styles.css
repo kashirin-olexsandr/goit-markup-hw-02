@@ -1,5 +1,6 @@
 :root {
     --main-font: 'Roboto', sans-serif;
+    --second-font: 'Roboto', sans-serif;
     --ultimate-white:#FFFFFF;
     --dark-bcg:#2E2F42;
     --modal-bcg:#FCFCFC;
@@ -22,7 +23,7 @@ body{
     background-color: #FFFFFF;
 }
 .logo{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--second-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
